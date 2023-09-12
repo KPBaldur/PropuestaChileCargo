@@ -26,15 +26,15 @@ header .nav-logo button{
   padding: auto;
   border: none;
   border-radius: 2px;
-  background: #1178ff;
+  background: #1AA3D9;
   color: aliceblue;
   cursor: pointer;
-  transition: background-color 0.5s linear;
+  transition: background-color 0.3s ease;
 }
 
 header .nav-logo button:hover {
-  background: rgb(50,50,196);
-  background: linear-gradient(360deg, rgba(50,50,196,1) 0%, rgba(0,212,255,1) 100%);
+  background: rgb(0,51,94);
+  background: linear-gradient(360deg, rgba(0,51,94) 0%, rgba(26,163,217,1) 100%);
 }
 
 header .nav-main {
@@ -75,8 +75,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover{
-  background-color: #1178ff;
+  background: #178FD8;
+  background: linear-gradient(360deg, rgba(0,51,94) 0%, rgba(26,163,217,1) 100%);
   color: aliceblue;
+  transition: 0.5s ease;
 }
 
 /*#########################################################*/
